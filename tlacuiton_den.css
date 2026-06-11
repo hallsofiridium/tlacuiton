@@ -1026,3 +1026,28 @@ content: url("https://images2.imgbox.com/17/d3/FPgTf0X9_o.png") !important;
 img[src$="addbeetlemound.png"] {
 content: url("https://images2.imgbox.com/3f/e0/qRVG5dQO_o.png") !important;
 }
+/* Scrollbars */
+.bigBox::-webkit-scrollbar,
+.smallBox::-webkit-scrollbar,
+.bottomBox::-webkit-scrollbar {
+    width: 8px;
+}
+
+.bigBox::-webkit-scrollbar-track,
+.smallBox::-webkit-scrollbar-track,
+.bottomBox::-webkit-scrollbar-track {
+    background: var(--pc1);
+}
+
+.bigBox::-webkit-scrollbar-thumb,
+.smallBox::-webkit-scrollbar-thumb,
+.bottomBox::-webkit-scrollbar-thumb {
+    background: var(--borderColor);
+    border-radius: 4px;
+}
+
+.bigBox::-webkit-scrollbar-thumb:hover,
+.smallBox::-webkit-scrollbar-thumb:hover,
+.bottomBox::-webkit-scrollbar-thumb:hover {
+    background: var(--tc);
+}
